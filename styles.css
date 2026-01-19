@@ -322,6 +322,39 @@ h1.main-title {
     color: var(--text-dark);
 }
 
+.cta-button.orange {
+    background: #FF9800;
+    /* Vibrant Orange */
+    color: var(--white);
+    border: 3px solid #E65100;
+    /* Darker Orange Border */
+    margin-top: 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 2rem;
+    /* Larger Text */
+    padding: 1.2rem 4rem;
+    /* Larger Button */
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    /* Black Text Outline */
+    font-weight: 800;
+    /* Extra Bold */
+    letter-spacing: 0.05em;
+}
+
+.cta-button.orange:hover {
+    background: #F57C00;
+    border-color: #BF360C;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(255, 152, 0, 0.4);
+}
+
 /* Loading Spinner */
 .spinner {
     width: 50px;
